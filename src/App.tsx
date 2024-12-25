@@ -7,13 +7,15 @@ import { Footer } from './components/Footer';
 import profilePicture from './assets/profile.jpg';
 
 function App() {
-     const handleScroll = (
-       event: React.MouseEvent<HTMLAnchorElement> | React.MouseEvent<HTMLButtonElement>,
-       id: string
-     ) => {
-       event.preventDefault();
-       document.getElementById(id)?.scrollIntoView({ behavior: 'smooth' });
-     };
+  const handleScroll = (
+    event:
+      | React.MouseEvent<HTMLAnchorElement>
+      | React.MouseEvent<HTMLButtonElement>,
+    id: string
+  ) => {
+    event.preventDefault();
+    document.getElementById(id)?.scrollIntoView({ behavior: 'smooth' });
+  };
   return (
     <div className="min-h-screen bg-white">
       <header className="fixed top-0 left-0 right-0 bg-white/80 backdrop-blur-sm z-50">

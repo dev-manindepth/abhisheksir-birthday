@@ -16,7 +16,7 @@ export default function Hero() {
         <HeroActions />
         <div className="mt-12 text-gray-600">
           <span className="font-semibold text-black">Together with</span>{' '}
-          all 5 team members
+          all 6 team members
         </div>
       </div>
     </div>

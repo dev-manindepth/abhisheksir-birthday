@@ -19,8 +19,9 @@ export default function HeroActions() {
   };
   return (
     <div className="flex flex-col sm:flex-row gap-4 justify-center">
-      <button className="bg-blue-600 text-white px-8 py-3 rounded-full hover:bg-blue-700 transition"
-      onClick={(e) => handleScroll(e, 'add-message')}
+      <button
+        className="bg-blue-600 text-white px-8 py-3 rounded-full hover:bg-blue-700 transition"
+        onClick={(e) => handleScroll(e, 'add-message')}
       >
         Send Birthday Wish
       </button>
@@ -31,8 +32,9 @@ export default function HeroActions() {
       >
         Celebrate 🎉
       </button>
-      <button className="border border-blue-600 text-blue-600 px-8 py-3 rounded-full hover:bg-blue-50 transition"
-      onClick={(e) => handleScroll(e, 'messages')}
+      <button
+        className="border border-blue-600 text-blue-600 px-8 py-3 rounded-full hover:bg-blue-50 transition"
+        onClick={(e) => handleScroll(e, 'messages')}
       >
         View Team Messages
       </button>
